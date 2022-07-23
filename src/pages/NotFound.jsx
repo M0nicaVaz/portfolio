@@ -5,12 +5,10 @@ export function NotFound() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-
       <Main>
-        <h1 className="font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-orange-300 to-red-400">
-          OOPS!
-        </h1>
-        <span className="block">Página não encontrada. </span>
+        <strong className="font-mono font-normal leading-loose text-transparent text-xl bg-clip-text bg-gradient-to-r from-blue to-green h-24 lg:text-2xl cursor-pointer  selection:bg-purple selection:text-yellow">
+          Oops! Página não encontrada.
+        </strong>
       </Main>
     </div>
   );

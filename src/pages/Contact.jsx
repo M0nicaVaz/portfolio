@@ -10,10 +10,16 @@ export function Contact() {
       <div className="flex">
         <div className="flex flex-col mb-6 ml-1 justify-center gap-2">
           <a href="https://linkedin.com/in/monica-vaz" target="_blank">
-            <FaLinkedin size={32} className="text-blue " />
+            <FaLinkedin
+              size={32}
+              className="text-blue hover:text-yellow transition-colors duration-300"
+            />
           </a>
           <a href="https://github.com/m0nicavaz" target="_blank">
-            <FaGithubSquare size={32} className="text-blue " />
+            <FaGithubSquare
+              size={32}
+              className="text-blue hover:text-purple transition-colors duration-300"
+            />
           </a>
         </div>
 
@@ -34,13 +40,13 @@ export function Contact() {
             <input
               type="text"
               placeholder="Nome"
-              className="bg-gray rounded p-2 w-72 text-blue selection:bg-green selection:text-gray"
+              className="bg-gray-200 rounded p-2 w-72 lg:w-96 text-blue selection:bg-purple"
             />
 
             <input
               type="text"
               placeholder="Email"
-              className="bg-gray rounded p-2 w-72 text-blue selection:bg-green  selection:text-gray"
+              className="bg-gray-200 rounded p-2 w-72 lg:w-96 text-blue selection:bg-purple"
             />
 
             <textarea
@@ -48,10 +54,10 @@ export function Contact() {
               id=""
               cols="30"
               rows="10"
-              className="bg-gray rounded p-2 w-72 resize-none text-blue selection:bg-green  selection:text-gray"
+              className="bg-gray-200 rounded p-2 w-72 lg:w-96 resize-none text-blue selection:bg-purple"
             ></textarea>
             <button
-              className="border-blue text-blue border hover:bg-gradient-to-r hover:text-neutral-900 font-medium hover:border-inherit from-blue to-purple rounded p-2 w-72 transition-all duration-200"
+              className="border-blue text-blue border hover:bg-gradient-to-r hover:text-neutral-900 font-medium hover:border-inherit from-blue to-purple rounded p-2 w-72 lg:w-96 transition-all duration-200 selection:text-yellow"
               type="button"
             >
               Enviar

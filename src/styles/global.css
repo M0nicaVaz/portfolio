@@ -5,3 +5,24 @@
 body {
   @apply bg-neutral-900 text-zinc-100 h-screen;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.25rem;
+  border-radius: 9999;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply bg-gray-100 rounded;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-blue rounded;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-yellow;
+}

@@ -10,7 +10,10 @@ module.exports = {
         orange: '#ff7849',
         green: '#A0FAA6',
         yellow: '#F1FA94',
-        gray: '#3A3E4F',
+        gray: {
+          100: '#282a36',
+          200: '#3A3E4F',
+        },
       },
       fontFamily: {
         mono: ['JetBrains Mono', 'monospace'],

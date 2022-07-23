@@ -16,7 +16,7 @@ export function Home() {
           bounds={{ top: -180, left: -20, right: 20, bottom: 10 }}
         >
           <div ref={nodeRef} className="group">
-            <div className="flex justify-between">
+            <div className="flex justify-between ">
               <span className="opacity-0 group-hover:opacity-100 text-4xl lg:mb-2 -rotate-12 transition-all duration-300 selection:text-yellow selection:bg-purple mb-1">
                 Hi!
               </span>
@@ -24,7 +24,8 @@ export function Home() {
                 👋
               </span>
             </div>
-            <h1 className="font-mono font-normal leading-loose text-transparent text-5xl bg-clip-text bg-gradient-to-r from-blue to-green h-24 italic lg:text-6xl animate-to-bottom cursor-grab active:cursor-grabbing active:from-purple active:to-yellow">
+
+            <h1 className="font-mono font-normal leading-normal text-transparent text-5xl bg-clip-text bg-gradient-to-r from-blue to-green h-24 italic lg:text-6xl animate-to-bottom cursor-grab active:cursor-grabbing active:from-purple active:to-yellow">
               &#60;Greetings&#47;&#62;
             </h1>
           </div>

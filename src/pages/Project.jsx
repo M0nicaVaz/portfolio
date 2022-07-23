@@ -2,7 +2,7 @@ import { Header } from '../components/Header';
 import { Main } from '../components/Main';
 import { useLesson } from '../hooks/useLesson';
 
-export function Lesson() {
+export function Project() {
   const lesson = useLesson();
 
   return (
