@@ -20,9 +20,24 @@ module.exports = {
           '0%, 100%': { transform: 'rotate(-6deg)' },
           '50%': { transform: 'rotate(6deg)' },
         },
+        slideDown: {
+          ' 0%': {
+            transform: 'translateY(-200%)',
+            opacity: '0',
+            visibility: 'hidden',
+            'animation-timing-function': 'cubic-bezier(0.8,0,1,1)',
+          },
+          '100%': {
+            transform: 'none',
+            opacity: '1',
+            visibility: 'visible',
+            'animation-timing-function': 'cubic-bezier(0.8,0,1,1)',
+          },
+        },
       },
       animation: {
         wiggle: 'wiggle 600ms ease-in-out infinite ',
+        'to-bottom': 'slideDown 800ms ease-in-out 1',
       },
     },
   },
