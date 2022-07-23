@@ -1,5 +1,7 @@
 export function Main({ children }) {
   return (
-    <main className="flex-1 grid place-content-center gap-8 ">{children}</main>
+    <main className="grid place-content-center px-12 w-screen h-[calc(100vh-72px)]">
+      {children}
+    </main>
   );
 }

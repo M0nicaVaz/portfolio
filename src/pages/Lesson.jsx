@@ -1,8 +1,10 @@
 import { Header } from '../components/Header';
 import { Main } from '../components/Main';
-import { LESSONS } from '../data';
+import { useLesson } from '../hooks/useLesson';
 
-export function Lesson({ lesson }) {
+export function Lesson() {
+  const lesson = useLesson();
+
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
@@ -13,8 +15,8 @@ export function Lesson({ lesson }) {
         </h1>
 
         <div className="text-center">
-          <p>Titulo</p>
-          <p>Descrição</p>
+          <p>{lesson.title}</p>
+          <p>{lesson.description}</p>
         </div>
       </Main>
     </div>

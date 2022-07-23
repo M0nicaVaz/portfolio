@@ -2,9 +2,8 @@ import { Header } from '../components/Header';
 import { Main } from '../components/Main';
 import { LESSONS } from '../data';
 import { Link, useLocation } from 'react-router-dom';
-import { useEffect } from 'react';
 
-export function About() {
+export function Projects() {
   const { pathname } = useLocation();
 
   return (
@@ -12,8 +11,8 @@ export function About() {
       <Header />
 
       <Main>
-        <h1 className="font-bold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-cyan-200 to-fuchsia-500">
-          Sobre
+        <h1 className="font-mono font-normal leading-loose text-transparent text-5xl bg-clip-text bg-gradient-to-r from-blue to-green h-24 italic selection:text-yellow lg:text-6xl">
+          &#60;Projects&#47;&#62;
         </h1>
 
         <ul>
