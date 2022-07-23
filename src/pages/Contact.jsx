@@ -7,12 +7,12 @@ export function Contact() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <div className="flex">
-        <div className="flex flex-col mb-6 ml-1 justify-center gap-2">
+      <div className="flex flex-col lg:flex-row">
+        <div className="flex order-1 ml-1 justify-center gap-2 lg:order-none lg:flex-col -mt-16">
           <a href="https://linkedin.com/in/monica-vaz" target="_blank">
             <FaLinkedin
               size={32}
-              className="text-blue hover:text-yellow transition-colors duration-300"
+              className="text-blue hover:text-purple transition-colors duration-300"
             />
           </a>
           <a href="https://github.com/m0nicavaz" target="_blank">
@@ -24,14 +24,14 @@ export function Contact() {
         </div>
 
         <Main className="flex flex-1">
-          <div className="group grid">
+          <div className="group grid justify-center">
             <div className="flex justify-self-end">
               <span className="opacity-0 group-hover:opacity-100 font-normal text-sm leading-relaxed transition-all duration-300 ">
                 Always open!
               </span>
               <RiInformationFill size={24} className="text-purple " />
             </div>
-            <h1 className="font-mono font-normal text-transparent text-5xl bg-clip-text bg-gradient-to-r from-blue to-purple mb-4  selection:text-yellow italic text-center">
+            <h1 className="font-mono font-normal text-transparent pb-2 text-4xl bg-clip-text bg-gradient-to-r from-blue to-purple mb-4  selection:text-yellow italic text-right">
               &#60;Contact&#62;
             </h1>
           </div>

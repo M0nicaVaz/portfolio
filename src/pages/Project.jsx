@@ -1,9 +1,9 @@
 import { Header } from '../components/Header';
 import { Main } from '../components/Main';
-import { useLesson } from '../hooks/useLesson';
+import { useProject } from '../hooks/useProject';
 
 export function Project() {
-  const lesson = useLesson();
+  const project = useProject();
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -15,8 +15,8 @@ export function Project() {
         </h1>
 
         <div className="text-center">
-          <p>{lesson.title}</p>
-          <p>{lesson.description}</p>
+          <p>{project.title}</p>
+          <p>{project.description}</p>
         </div>
       </Main>
     </div>
