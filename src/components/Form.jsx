@@ -78,7 +78,7 @@ export function Form() {
         disabled={result}
         type="submit"
         className={classNames(
-          'border-blue text-blue border hover:bg-gradient-to-r hover:text-neutral-900 font-medium hover:border-inherit from-blue to-purple rounded p-2 w-72 mb-6 lg:w-96 transition-all duration-200 selection:text-yellow disabled:opacity-50 disabled:cursor-not-allowed'
+          'border-blue text-blue border hover:bg-gradient-to-r hover:text-neutral-900 font-medium hover:border-inherit from-blue to-purple rounded p-2 w-72 mb-6 lg:w-96 transition-all duration-300 selection:text-yellow disabled:opacity-50 disabled:cursor-not-allowed'
         )}
       >
         Enviar

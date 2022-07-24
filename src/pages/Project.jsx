@@ -19,13 +19,13 @@ export function Project() {
             </h1>
 
             <a href={project.github} target="_blank">
-              <span className="text-sm flex flex-col items-center justify-center group text-blue hover:text-yellow">
+              <span className="text-sm flex flex-col items-center justify-center group text-blue hover:text-yellow transition-colors duration-300">
                 <FaGithub size={20} />
                 repo
               </span>
             </a>
             <a href={project.live} target="_blank">
-              <span className="text-sm flex flex-col items-center justify-center group text-blue hover:text-green">
+              <span className="text-sm flex flex-col items-center justify-center group text-blue hover:text-green transition-colors duration-300">
                 <TbWorld size={22} />
                 live
               </span>

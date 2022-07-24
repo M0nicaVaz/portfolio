@@ -4,7 +4,7 @@ export function Card({ project }) {
   const { pathname } = useLocation();
   return (
     <Link to={`${pathname}/${project.id}`}>
-      <li className="grid place-content-center px-4 w-72  rounded bg-gray-100 gap-2 lg:w-[420px] lg:py-4 lg:min-h-full h-fit py-4">
+      <li className="grid place-content-center px-4 w-72  rounded bg-gray-100 gap-2 hover:brightness-125 transition-all duration-300 lg:w-[420px] lg:py-4 lg:min-h-full h-fit py-4">
         <div className="w-full ">
           <img
             src={project.image}

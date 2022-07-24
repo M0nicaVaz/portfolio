@@ -9,7 +9,8 @@ export function NavItem({ to: to, title }) {
     <Link
       to={to}
       className={classNames(
-        'hover:text-yellow active:text-yellow duration-300',
+        'hover:text-yellow active:text-yellow transition-colors duration-300',
+
         {
           'text-blue ': isSelected,
         }
@@ -18,17 +19,23 @@ export function NavItem({ to: to, title }) {
       <li className="font-mono text-base">
         <div className="group">
           <span
-            className={classNames('group-hover:text-purple', {
-              'text-green ': isSelected,
-            })}
+            className={classNames(
+              'group-hover:text-purple transition-colors duration-300',
+              {
+                'text-green ': isSelected,
+              }
+            )}
           >
             &#123;
           </span>{' '}
           {title} {''}
           <span
-            className={classNames('group-hover:text-purple', {
-              'text-green ': isSelected,
-            })}
+            className={classNames(
+              'group-hover:text-purple transition-colors duration-300',
+              {
+                'text-green ': isSelected,
+              }
+            )}
           >
             &#125;
           </span>
