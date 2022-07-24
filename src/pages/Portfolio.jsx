@@ -38,6 +38,7 @@ export function Portfolio() {
             <span className=" gap-2 ml-6 text-xs font-extralight text-center lg:text-right lg:self-end">
               Check the repository by clicking
               <a
+                target="_blank"
                 href="https://github.com/M0nicaVaz/portfolio"
                 className="text-blue hover:text-green"
               >
