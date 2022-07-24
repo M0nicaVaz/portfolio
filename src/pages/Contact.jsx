@@ -31,7 +31,7 @@ export function Contact() {
               </span>
               <RiInformationFill size={24} className="text-purple " />
             </div>
-            <h1 className="font-mono font-normal text-transparent pb-2 text-4xl lg:text-5xl bg-clip-text bg-gradient-to-r from-blue to-purple mb-4  selection:text-yellow italic text-right">
+            <h1 className="font-mono font-normal text-transparent pb-2 text-4xl lg:text-5xl bg-clip-text bg-gradient-to-br from-blue to-purple mb-4  selection:text-yellow italic text-right">
               &#60;Contact&#62;
             </h1>
           </div>

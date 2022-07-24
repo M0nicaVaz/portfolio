@@ -2,6 +2,7 @@ import { Header } from '../components/Header';
 import { Main } from '../components/Main';
 import { Card } from '../components/Card';
 import { PROJECTS } from '../data';
+import { SiTailwindcss, SiReact } from 'react-icons/si';
 
 export function Portfolio() {
   return (
@@ -9,7 +10,7 @@ export function Portfolio() {
       <Header />
 
       <Main>
-        <h1 className="font-mono font-normal text-transparent pb-2 text-4xl bg-clip-text bg-gradient-to-r from-yellow to-blue mb-4  lg:text-5xl  selection:text-yellow italic text-right">
+        <h1 className="font-mono font-normal leading-loose pb-4 text-transparent text-4xl bg-clip-text bg-gradient-to-br from-yellow to-blue lg:text-5xl  selection:text-yellow italic text-right">
           &#60;Projects&#62;
         </h1>
 
@@ -20,10 +21,33 @@ export function Portfolio() {
             ))}
           </ul>
         </div>
-
-        <span className="font-mono font-light text-2xl leading-loose text-transparent bg-clip-text bg-gradient-to-r from-yellow to-blue mt-2 justify-self-end opacity-70">
+        <span className="font-mono font-light text-2xl leading-loose text-transparent bg-clip-text bg-gradient-to-br from-yellow to-blue mt-2 justify-self-end opacity-70">
           &#60;&#47;&#62;
         </span>
+
+        <footer className="w-full pt-6 flex items-center justify-center lg:justify-end opacity-50">
+          <div className="flex flex-col gap-2">
+            <div className="flex items-center gap-2">
+              <span className="ml-6 text-xs font-extralight">
+                &#123;/* This portfolio was also coded by me, with
+              </span>
+              <SiReact size={16} className="inline text-blue" />
+              <SiTailwindcss size={16} className="inline text-blue" />
+            </div>
+
+            <span className=" gap-2 ml-6 text-xs font-extralight text-center lg:text-right lg:self-end">
+              Check the repository by clicking
+              <a
+                href="https://github.com/M0nicaVaz/portfolio"
+                className="text-blue hover:text-green"
+              >
+                {' '}
+                here{' '}
+              </a>
+              */&#125;
+            </span>
+          </div>
+        </footer>
       </Main>
     </div>
   );

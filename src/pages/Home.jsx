@@ -15,7 +15,7 @@ export function Home() {
       <Main>
         <Draggable
           nodeRef={nodeRef}
-          bounds={{ top: -180, left: -20, right: 20, bottom: 10 }}
+          bounds={{ top: -90, left: -20, right: 20, bottom: 10 }}
         >
           <div ref={nodeRef} className="group grid items-center">
             <div className="justify-self-end flex justify-between w-[260px] lg:w-[420px]">
@@ -27,7 +27,7 @@ export function Home() {
               </span>
             </div>
 
-            <h1 className="self-end text-right font-mono font-normal leading-relaxed text-transparent text-4xl bg-clip-text bg-gradient-to-r from-blue to-green italic mb-4 animate-to-bottom cursor-grab active:cursor-grabbing  selection:text-yellow active:from-purple active:to-yellow lg:h-24 lg:text-6xl">
+            <h1 className="self-end text-right font-mono font-normal leading-relaxed text-transparent text-4xl bg-clip-text bg-gradient-to-br from-purple to-yellow italic mb-4 animate-to-bottom cursor-grab active:cursor-grabbing  selection:text-yellow active:from-blue active:to-green lg:h-24 lg:text-6xl">
               &#60;Greetings&#47;&#62;
             </h1>
           </div>
