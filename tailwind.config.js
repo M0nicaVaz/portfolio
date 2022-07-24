@@ -37,10 +37,18 @@ module.exports = {
             'animation-timing-function': 'cubic-bezier(0.8,0,1,1)',
           },
         },
+        disappear: {
+          to: {
+            opacity: 0,
+            visibility: 0,
+          },
+        },
       },
       animation: {
-        wiggle: 'wiggle 600ms ease-in-out infinite ',
-        'to-bottom': 'slideDown 800ms ease-in-out 1',
+        'wiggle-fast': 'wiggle 300ms ease-in-out 3',
+        'wiggle-infinite': 'wiggle 600ms ease-in-out infinite',
+        'to-bottom': 'slideDown 600ms ease-in-out 1',
+        disappear: 'disappear 300ms 2s ease-out forwards',
       },
     },
   },

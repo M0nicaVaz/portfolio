@@ -1,15 +1,35 @@
-import { Link } from 'react-router-dom';
+import { Link, useParams, useLocation } from 'react-router-dom';
+import classNames from 'classnames';
 
 export function NavItem({ to: to, title }) {
+  const { pathname } = useLocation();
+  const isSelected = pathname === to;
+
   return (
-    <Link to={to} className="hover:text-blue active:text-yellow duration-300">
-      <li className="font-mono text-sm lg:text-base">
+    <Link
+      to={to}
+      className={classNames(
+        'hover:text-yellow active:text-yellow duration-300',
+        {
+          'text-blue ': isSelected,
+        }
+      )}
+    >
+      <li className="font-mono text-base">
         <div className="group">
-          <span className="group-hover:text-green group-active:text-purple">
+          <span
+            className={classNames('group-hover:text-purple', {
+              'text-green ': isSelected,
+            })}
+          >
             &#123;
           </span>{' '}
           {title} {''}
-          <span className="group-hover:text-green group-active:text-purple">
+          <span
+            className={classNames('group-hover:text-purple', {
+              'text-green ': isSelected,
+            })}
+          >
             &#125;
           </span>
         </div>

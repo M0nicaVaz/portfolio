@@ -25,7 +25,7 @@ export function Portfolio() {
           &#60;&#47;&#62;
         </span>
 
-        <footer className="w-full pt-6 flex items-center justify-center lg:justify-end opacity-50">
+        <footer className="w-full pt-8 pb-8 lg:pb-0 lg:pt-6 flex items-center justify-center lg:justify-end opacity-50">
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-2">
               <span className="ml-6 text-xs font-extralight">

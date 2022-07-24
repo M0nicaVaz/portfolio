@@ -24,7 +24,7 @@ export function Contact() {
         </div>
 
         <Main>
-          <div className="group grid justify-center">
+          <div className="group grid justify-center ">
             <div className="flex justify-self-end">
               <span className="opacity-0 group-hover:opacity-100 font-normal text-sm leading-relaxed transition-all duration-300 ">
                 Always open!
@@ -36,7 +36,7 @@ export function Contact() {
             </h1>
           </div>
 
-          <form className="flex flex-col gap-2">
+          <form className="flex flex-col gap-2 items-center">
             <input
               type="text"
               placeholder="Nome"

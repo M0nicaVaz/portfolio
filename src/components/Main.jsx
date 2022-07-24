@@ -1,6 +1,6 @@
 export function Main({ children }) {
   return (
-    <main className="grid place-content-center lg:place-content-center px-12 w-screen h-screen lg:h-[calc(100vh-72px)]">
+    <main className="grid px-12 w-screen mt-10 lg:mt-0 lg:h-[calc(100vh-72px)] lg:place-content-center">
       {children}
     </main>
   );
