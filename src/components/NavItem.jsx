@@ -1,4 +1,4 @@
-import { Link, useParams, useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import classNames from 'classnames';
 
 export function NavItem({ to: to, title }) {

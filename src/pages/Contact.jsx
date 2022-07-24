@@ -1,5 +1,6 @@
 import { Header } from '../components/Header';
 import { Main } from '../components/Main';
+import { Form } from '../components/Form';
 import { RiInformationFill } from 'react-icons/ri';
 import { FaLinkedin, FaGithubSquare } from 'react-icons/fa';
 
@@ -36,33 +37,7 @@ export function Contact() {
             </h1>
           </div>
 
-          <form className="flex flex-col gap-2 items-center">
-            <input
-              type="text"
-              placeholder="Nome"
-              className="bg-gray-200 rounded p-2 w-72 lg:w-96 text-blue selection:bg-purple"
-            />
-
-            <input
-              type="text"
-              placeholder="Email"
-              className="bg-gray-200 rounded p-2 w-72 lg:w-96 text-blue selection:bg-purple"
-            />
-
-            <textarea
-              name=""
-              id=""
-              cols="30"
-              rows="10"
-              className="bg-gray-200 rounded p-2 w-72 lg:w-96 resize-none text-blue selection:bg-purple"
-            ></textarea>
-            <button
-              className="border-blue text-blue border hover:bg-gradient-to-r hover:text-neutral-900 font-medium hover:border-inherit from-blue to-purple rounded p-2 w-72 mb-6 lg:w-96 transition-all duration-200 selection:text-yellow"
-              type="button"
-            >
-              Enviar
-            </button>
-          </form>
+          <Form />
         </Main>
       </div>
     </div>
