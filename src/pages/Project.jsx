@@ -32,7 +32,7 @@ export function Project() {
             </a>
           </div>
 
-          <p className="max-w-screen-sm text-right text-base selection:text-yellow selection:bg-purple mb-4">
+          <p className="max-w-screen-sm text-right text-base selection:text-yellow selection:bg-purple mb-4 justify-self-end">
             {project.description}
           </p>
 
@@ -49,7 +49,7 @@ export function Project() {
           <img
             src={project.image}
             alt={project.title}
-            className="w-full aspect-video lg:max-w-screen-sm"
+            className="w-full aspect-video md:max-w-screen-sm"
           />
         </div>
       </Main>

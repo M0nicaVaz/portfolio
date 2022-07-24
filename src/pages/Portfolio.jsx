@@ -29,7 +29,7 @@ export function Portfolio() {
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-2">
               <span className="ml-6 text-xs font-extralight">
-                &#123;/* This portfolio was also coded by me, with
+                &#123;/* This portfolio was made with
               </span>
               <SiReact size={16} className="inline text-blue" />
               <SiTailwindcss size={16} className="inline text-blue" />
