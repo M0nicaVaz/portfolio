@@ -9,7 +9,7 @@ export function Portfolio() {
       <Header />
 
       <Main>
-        <h1 className="font-mono font-normal leading-loose text-transparent text-4xl bg-clip-text py-2 bg-gradient-to-r from-yellow to-blue italic justify-self-end selection:text-yellow lg:text-5xl">
+        <h1 className="font-mono font-normal text-transparent pb-2 text-4xl lg:text-5xl bg-clip-text bg-gradient-to-r from-yellow to-blue mb-4  selection:text-yellow italic text-right">
           &#60;Projects&#62;
         </h1>
 
