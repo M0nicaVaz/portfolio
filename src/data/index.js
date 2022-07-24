@@ -9,7 +9,10 @@ export const PROJECTS = [
   {
     id: 0,
     title: 'Rocket Notes',
-    description: 'Essa é a descrição da aula 1',
+    github: 'https://github.com/M0nicaVaz/RocketNotes',
+    live: 'userocketnotes.netlify.com/',
+    description:
+      'An application to keep your links and notes. During this project I was able to learn about frontend and backend integration, as well as authentication, jwt and password encryption. The tech stack is React, Node, SQLite, Knex and Styled-Components.',
     stack: ['React', 'Node', ' SQL'],
     image: rocketnotes,
   },

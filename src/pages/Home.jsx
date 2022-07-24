@@ -27,7 +27,7 @@ export function Home() {
               </span>
             </div>
 
-            <h1 className="self-end text-right font-mono font-normal leading-relaxed text-transparent text-4xl bg-clip-text bg-gradient-to-r from-blue to-green italic mb-4 animate-to-bottom cursor-grab active:cursor-grabbing active:from-purple active:to-yellow lg:h-24 lg:text-6xl">
+            <h1 className="self-end text-right font-mono font-normal leading-relaxed text-transparent text-4xl bg-clip-text bg-gradient-to-r from-blue to-green italic mb-4 animate-to-bottom cursor-grab active:cursor-grabbing  selection:text-yellow active:from-purple active:to-yellow lg:h-24 lg:text-6xl">
               &#60;Greetings&#47;&#62;
             </h1>
           </div>

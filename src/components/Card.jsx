@@ -16,7 +16,7 @@ export function Card({ project }) {
 
         <div className="flex justify-end items-center gap-2">
           {project.stack.map((tag) => (
-            <span className="py-1 px-2 text-right text-sm bg-gray-200 rounded shadow-lg">
+            <span className="py-1 px-2 text-right text-sm bg-gray-200 rounded shadow-lg ">
               {tag}
             </span>
           ))}
