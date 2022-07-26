@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-neutral-900 text-zinc-100 h-screen overflow-x-hidden antialiased;
+  @apply dark:bg-neutral-900 dark:text-zinc-100 bg-zinc-100 text-neutral-900 h-screen overflow-x-hidden antialiased;
 }
 
 /* width */
