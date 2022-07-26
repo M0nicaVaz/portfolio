@@ -54,7 +54,7 @@ export function Form() {
         required
         type="text"
         name="user_name"
-        placeholder="Nome"
+        placeholder="Name"
         className="bg-gray-200 rounded p-2 w-72 lg:w-96 text-blue selection:bg-purple"
       />
 
@@ -81,7 +81,7 @@ export function Form() {
           'border-blue text-blue border hover:bg-gradient-to-r hover:text-neutral-900 font-medium hover:border-inherit from-blue to-purple rounded p-2 w-72 mb-6 lg:w-96 transition-all duration-300 selection:text-yellow disabled:opacity-50 disabled:cursor-not-allowed'
         )}
       >
-        Enviar
+        Send
       </button>
       {result ? <Result /> : null}
     </form>
