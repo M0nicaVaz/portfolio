@@ -28,7 +28,7 @@ export function Header() {
       </button>
       <ul className="flex flex-col gap-2  selection:bg-purple-100 selection:text-yellow-200 lg:flex-row lg:gap-5 ">
         <NavItem to="/" title="AboutMe" />
-        <NavItem to="/portfolio" title="Portfolio" />
+        <NavItem to="/portfolio" title="Projects" />
         <NavItem to="/contact" title="Contact" />
       </ul>
     </header>

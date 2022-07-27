@@ -21,7 +21,7 @@ export function Portfolio() {
             ))}
           </ul>
         </div>
-        <span className="font-mono font-light text-2xl leading-loose text-transparent bg-clip-text bg-gradient-to-br from-yellow to-blue mt-2 justify-self-end opacity-70">
+        <span className="font-mono font-light text-2xl leading-loose text-transparent bg-clip-text bg-gradient-to-br from-yellow-100 to-rose-400  dark:from-yellow-200 dark:to-blue-200 mt-2 justify-self-end opacity-70">
           &#60;&#47;&#62;
         </span>
 
