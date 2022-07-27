@@ -13,13 +13,13 @@ export function Contact() {
           <a href="https://linkedin.com/in/monica-vaz" target="_blank">
             <FaLinkedin
               size={32}
-              className="text-blue hover:text-purple transition-colors duration-300"
+              className="text-rose-400 dark:text-blue-200 hover:text-purple-100 dark:hover:text-purple-200 transition-colors duration-300"
             />
           </a>
           <a href="https://github.com/m0nicavaz" target="_blank">
             <FaGithubSquare
               size={32}
-              className="text-blue hover:text-purple transition-colors duration-300"
+              className="text-rose-400 dark:text-blue-200 hover:text-purple-100 dark:hover:text-purple-200 transition-colors duration-300"
             />
           </a>
         </div>
@@ -27,12 +27,15 @@ export function Contact() {
         <Main>
           <div className="group grid justify-center ">
             <div className="flex justify-self-end">
-              <span className="opacity-0 group-hover:opacity-100 font-normal text-sm leading-relaxed transition-all duration-300 ">
+              <span className="opacity-0 group-hover:opacity-100 font-normal text-sm leading-relaxed transition-all duration-300">
                 Always open!
               </span>
-              <RiInformationFill size={24} className="text-purple " />
+              <RiInformationFill
+                size={24}
+                className="text-purple-100 dark:text-purple-200"
+              />
             </div>
-            <h1 className="font-mono font-normal text-transparent pb-2 text-4xl lg:text-5xl bg-clip-text bg-gradient-to-br from-blue to-purple mb-4  selection:text-yellow italic text-right">
+            <h1 className="font-mono font-normal pb-2 text-4xl lg:text-5xl mb-4 selection:text-yellow-100 dark:selection:text-yellow-200 italic text-right text-transparent bg-clip-text bg-gradient-to-br from-rose-400 to-purple-100 dark:from-blue-200 dark:to-purple-200">
               &#60;Contact&#62;
             </h1>
           </div>

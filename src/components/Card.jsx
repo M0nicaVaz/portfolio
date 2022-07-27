@@ -4,7 +4,7 @@ export function Card({ project }) {
   const { pathname } = useLocation();
   return (
     <Link to={`${pathname}/${project.id}`}>
-      <li className="grid place-content-center px-4 w-72  rounded bg-gray-100 gap-2 hover:brightness-125 transition-all duration-300 lg:w-[420px] lg:py-4 lg:min-h-full h-fit py-4">
+      <li className="grid place-content-center px-4 w-72  rounded bg-slate-100 dark:bg-gray-200 gap-2 hover:brightness-125 transition-all duration-300 lg:w-[420px] lg:py-4 lg:min-h-full h-fit py-4">
         <div className="w-full ">
           <img
             src={project.image}
@@ -18,8 +18,11 @@ export function Card({ project }) {
         </span>
 
         <div className="flex flex-wrap justify-end items-center gap-2">
-          {project.stack.map((tag) => (
-            <span className="py-1 px-2 text-right font-extralight text-blue text-sm bg-gray-200 rounded shadow-lg">
+          {project.stack.map((tag, index) => (
+            <span
+              key={index}
+              className="py-1 px-2 text-right font-extralight text-rose-200 bg-gray-700 dark:text-blue-200 text-sm rounded shadow-lg"
+            >
               {tag}
             </span>
           ))}

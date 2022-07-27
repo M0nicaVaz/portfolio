@@ -19,25 +19,25 @@ export function Home() {
         >
           <div ref={nodeRef} className="mt-4 md:mt-0 group grid items-center">
             <div className="animate-disappear lg:animate-none justify-self-end flex justify-between w-[260px] lg:w-[420px]">
-              <span className="mt-2 -rotate-12 transition-all duration-300 text-2xl  selection:text-yellow selection:bg-purple lg:opacity-0 lg:group-hover:opacity-100 lg:text-3xl lg:mb-2 ">
+              <span className="mt-2 -rotate-12 transition-all duration-300 text-2xl  selection:text-yellow-200 selection:bg-purple-100 lg:opacity-0 lg:group-hover:opacity-100 lg:text-3xl lg:mb-2 ">
                 Hi!
               </span>
-              <span className="animate-wiggle-fast text-3xl transition-all duration-300 selection:text-yellow selection:bg-purple mb-1 lg:opacity-0 lg:group-hover:opacity-100 lg:animate-wiggle-infinite lg:mb-2 lg:text-4xl ">
+              <span className="animate-wiggle-fast text-3xl transition-all duration-300 selection:text-yellow-200 selection:bg-purple-100 mb-1 lg:opacity-0 lg:group-hover:opacity-100 lg:animate-wiggle-infinite lg:mb-2 lg:text-4xl ">
                 👋
               </span>
             </div>
 
-            <h1 className="self-end text-right font-mono font-normal leading-relaxed text-transparent text-4xl bg-clip-text bg-gradient-to-br from-purple to-yellow italic mb-2 lg:animate-to-bottom cursor-grab active:cursor-grabbing  selection:text-yellow active:from-blue active:to-green lg:h-24 lg:text-6xl">
+            <h1 className="self-end text-right font-mono font-normal leading-relaxed text-4xl italic mb-2 cursor-grab active:cursor-grabbing  selection:text-yellow-100 lg:h-24 lg:text-6xl lg:animate-to-bottom text-transparent  bg-clip-text bg-gradient-to-br from-purple-100 to-orange dark:from-purple-200 dark:to-yellow-200  dark:selection:text-yellow-200">
               &#60;Greetings&#47;&#62;
             </h1>
           </div>
         </Draggable>
 
-        <span className="justify-self-end  text-xl leading-relaxed mb-2  selection:text-yellow selection:bg-purple ">
+        <span className="justify-self-end  text-xl leading-relaxed mb-2  selection:text-yellow-200 selection:bg-purple-100">
           I'm Monica
         </span>
 
-        <span className="pl-2 font-light max-w-screen-sm text-right text-lg selection:text-yellow selection:bg-purple justify-self-end">
+        <span className="pl-2 font-normal dark:font-light max-w-screen-sm text-right text-lg selection:text-yellow-200 selection:bg-purple-100 justify-self-end">
           I'm a Brazilian web developer, passionate about the client-side and
           building beautiful applications. At the moment, I'm dedicating my time
           to learning more about React. During my free time, I enjoy playing
@@ -48,13 +48,13 @@ export function Home() {
           <a href="https://linkedin.com/in/monica-vaz" target="_blank">
             <FaLinkedin
               size={30}
-              className="text-blue hover:text-green transition-all duration-300 opacity-50 hover:opacity-80"
+              className="hover:opacity-70 text-cyan-700 dark:text-blue-200 dark:hover:text-green transition-all duration-300 dark:opacity-50 dark:hover:opacity-80"
             />
           </a>
           <a href="https://github.com/m0nicavaz" target="_blank">
             <FaGithubSquare
               size={30}
-              className="text-blue hover:text-green transition-all duration-300 opacity-50 hover:opacity-80"
+              className="hover:opacity-70 text-cyan-700 dark:text-blue-200 dark:hover:text-green transition-all duration-300 dark:opacity-50 dark:hover:opacity-80"
             />
           </a>
           <a
@@ -65,7 +65,7 @@ export function Home() {
           >
             <FaFileDownload
               size={28}
-              className="text-blue hover:text-green transition-all duration-300 opacity-50 hover:opacity-80"
+              className="hover:opacity-70 text-cyan-700   dark:text-blue-200 dark:hover:text-green transition-all duration-300 dark:opacity-50 dark:hover:opacity-80"
             />
           </a>
         </div>

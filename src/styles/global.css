@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply dark:bg-neutral-900 dark:text-zinc-100 bg-zinc-100 text-neutral-900 h-screen overflow-x-hidden antialiased;
+  @apply text-neutral-900 dark:text-zinc-100  bg-gray-100 dark:bg-gray-300 min-h-screen overflow-x-hidden antialiased  transition-colors duration-300;
 }
 
 /* width */
@@ -14,15 +14,15 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  @apply bg-gray-100 rounded;
+  @apply bg-gray-400 dark:bg-gray-200 rounded;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  @apply bg-blue rounded;
+  @apply bg-rose-400 dark:bg-blue-200 rounded;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-yellow;
+  @apply bg-yellow-100 dark:bg-yellow-200;
 }

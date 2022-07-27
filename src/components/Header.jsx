@@ -5,8 +5,6 @@ import { useTheme } from '../hooks/useTheme';
 export function Header() {
   const { theme, setTheme } = useTheme();
 
-  console.log(theme);
-
   return (
     <header className="w-full flex items-center justify-between text-right py-4 px-6">
       <button>
@@ -16,7 +14,7 @@ export function Header() {
               setTheme('light');
             }}
             size={26}
-            className="text-yellow opacity-80"
+            className="text-yellow-200 opacity-80"
           />
         ) : (
           <TbSunOff
@@ -28,7 +26,7 @@ export function Header() {
           />
         )}
       </button>
-      <ul className="flex flex-col gap-2 selection:bg-yellow selection:text-purple lg:flex-row lg:gap-5 ">
+      <ul className="flex flex-col gap-2  selection:bg-purple-100 selection:text-yellow-200 lg:flex-row lg:gap-5 ">
         <NavItem to="/" title="AboutMe" />
         <NavItem to="/portfolio" title="Portfolio" />
         <NavItem to="/contact" title="Contact" />

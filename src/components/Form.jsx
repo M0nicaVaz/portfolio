@@ -55,7 +55,7 @@ export function Form() {
         type="text"
         name="user_name"
         placeholder="Name"
-        className="bg-gray-200 rounded p-2 w-72 lg:w-96 text-blue selection:bg-purple"
+        className="bg-gray-400 dark:bg-gray-200  rounded p-2 w-72 lg:w-96 text-rose-50 dark:text-blue-200 selection:bg-purple-100"
       />
 
       <input
@@ -63,7 +63,7 @@ export function Form() {
         type="email"
         name="user_email"
         placeholder="Email"
-        className="bg-gray-200 rounded p-2 w-72 lg:w-96 text-blue selection:bg-purple"
+        className="bg-gray-400 dark:bg-gray-200  rounded p-2 w-72 lg:w-96 text-rose-50 dark:text-blue-200 selection:bg-purple-100"
       />
 
       <textarea
@@ -71,14 +71,14 @@ export function Form() {
         name="message"
         cols="30"
         rows="10"
-        className="bg-gray-200 rounded p-2 w-72 lg:w-96 resize-none text-blue selection:bg-purple"
+        className="bg-gray-400 dark:bg-gray-200 rounded p-2 w-72 lg:w-96 resize-none text-rose-50 dark:text-blue-200 selection:bg-purple-100"
       />
 
       <button
         disabled={result}
         type="submit"
         className={classNames(
-          'border-blue text-blue border hover:bg-gradient-to-r hover:text-neutral-900 font-medium hover:border-inherit from-blue to-purple rounded p-2 w-72 mb-6 lg:w-96 transition-all duration-300 selection:text-yellow disabled:opacity-50 disabled:cursor-not-allowed'
+          'border-rose-500 text-rose-500 hover:from-rose-500 hover:to-purple-200 hover:text-neutral-100  dark:border-blue-200 dark:text-blue-200 border hover:bg-gradient-to-r dark:hover:text-neutral-900 font-medium hover:dark:from-blue-200 hover:dark:to-purple-200 rounded p-2 w-72 mb-6 lg:w-96 transition-all duration-300 selection:text-yellow disabled:opacity-50 disabled:cursor-not-allowed'
         )}
       >
         Send
