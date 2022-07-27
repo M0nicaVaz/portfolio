@@ -39,7 +39,7 @@ export function Home() {
 
         <span className="pl-2 font-normal dark:font-light max-w-screen-sm text-right text-lg selection:text-yellow-200 selection:bg-purple-100 justify-self-end">
           I'm a Brazilian web developer, passionate about the client-side and
-          building beautiful applications. At the moment, I'm dedicating my time
+          building beautiful applications. At the moment I'm dedicating my time
           to learning more about React. During my free time, I enjoy playing
           video games and watching anime. I also have a psychology degree!
         </span>
@@ -59,7 +59,7 @@ export function Home() {
           </a>
           <a
             href={
-              'https://drive.google.com/uc?export=download&id=18M0IIVqNvt8Aor-pEWW2UXD-XOI1gr19'
+              'https://drive.google.com/uc?export=download&id=1pw4SBlQFvTNYTvfwjYQBDp_dxJ9gK9Fm'
             }
             target="_blank"
           >
