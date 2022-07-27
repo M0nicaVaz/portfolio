@@ -6,9 +6,12 @@ export function NotFound() {
     <div className="min-h-screen flex flex-col">
       <Header />
       <Main>
-        <strong className="font-mono font-normal leading-loose text-transparent text-xl bg-clip-text bg-gradient-to-r from-blue to-green h-24 lg:text-2xl cursor-pointer  selection:bg-purple selection:text-yellow">
-          Oops! Página não encontrada.
-        </strong>
+        <span className="place-self-center font-mono font-normal leading-loose text-2xl bg-clip-text selection:bg-purple-200 selection:text-yellow-100 text-rose-500 dark:text-blue-200">
+          Oops, 404!
+        </span>
+        <span className="place-self-center font-normal leading-loose bg-clip-text text-xl text-center selection:bg-purple-200 selection:text-yellow">
+          Let me know if you find any bugs!
+        </span>
       </Main>
     </div>
   );

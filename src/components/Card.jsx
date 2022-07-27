@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 export function Card({ project }) {
   const { pathname } = useLocation();
   return (
-    <Link to={`${pathname}/${project.id}`}>
+    <Link to={`${pathname}/${project.slug}`}>
       <li className="grid place-content-center px-4 w-72  rounded bg-slate-100 dark:bg-gray-200 gap-2 hover:brightness-125 transition-all duration-300 lg:w-[420px] lg:py-4 lg:min-h-full h-fit py-4">
         <div className="w-full ">
           <img

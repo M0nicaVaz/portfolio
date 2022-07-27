@@ -15,6 +15,7 @@ export const PROJECTS = [
       'An application to keep your links and notes easily grouped. During this project, I was able to learn about frontend and backend integration, as well as authentication, JWT, and password encryption.',
     stack: ['React', 'Styled-Components', 'Knex', 'Node', ' SQL'],
     image: rocketnotes,
+    slug: 'rocketnotes',
   },
 
   {
@@ -26,6 +27,7 @@ export const PROJECTS = [
       'A classroom environment! The app was built with React and GraphQL to consume the GraphCMS API and display the lessons dynamically. This was developed throughout the IgniteLab, from RocketSeat.',
     stack: ['React', 'TypeScript', 'GraphCMS', 'Apollo', 'Tailwind'],
     image: classroom,
+    slug: 'classroom',
   },
 
   {
@@ -36,6 +38,7 @@ export const PROJECTS = [
     description: `A vanilla JavaScript SPA that was developed to document my progress as a Web Developer, throughout my studies on Rocketseat's program 'Explorer'. I used Linktree's concept as my inspiration to build this website.`,
     stack: ['JavaScript', ' HTML', 'CSS'],
     image: explorer,
+    slug: 'explorer',
   },
 
   {
@@ -46,6 +49,7 @@ export const PROJECTS = [
     description: `Developed to group your favorite GitHub profiles! The app consumes the GitHub API, so the user may  access the provided public information about the searched username.`,
     stack: ['JavaScript', ' HTML', 'CSS'],
     image: gitfav,
+    slug: 'gitfav',
   },
 
   {
@@ -57,6 +61,7 @@ export const PROJECTS = [
       'A landing page for the Instagram project @psi.indica, in which the user can choose the type of content that they want to consume, so cards may be displayed correspondingly, including a random option.',
     stack: ['JavaScript', ' HTML', 'CSS'],
     image: psiIndica,
+    slug: 'psiindica',
   },
 
   {
@@ -67,5 +72,6 @@ export const PROJECTS = [
     description: 'A Pomodoro Timer with different sounds to help you focus!',
     stack: ['JavaScript', ' HTML', 'CSS'],
     image: focustimer,
+    slug: 'focustimer',
   },
 ];
