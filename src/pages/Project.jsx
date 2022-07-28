@@ -61,9 +61,11 @@ export function Project() {
         ) : (
           <div className="flex flex-col gap-2">
             <span className="font-mono font-normal text-3xl text-center text-rose-500 dark:text-blue-200">
-              404
+              404! Sorry!
             </span>
-            <span className="font-normal text-2xl text-center">Sorry!</span>
+            <span className="font-normal text-2xl text-center">
+              Please let me know if you find any bugs!
+            </span>
           </div>
         )}
       </Main>
