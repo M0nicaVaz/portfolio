@@ -1,6 +1,6 @@
 import rocketnotes from '../assets/rocketnotes.gif';
 import gitfav from '../assets/gitfav.jpg';
-import focustimer from '../assets/focustimer.gif';
+import animeranking from '../assets/animeranking.gif';
 import explorer from '../assets/explorer.gif';
 import psiIndica from '../assets/psiindica.gif';
 import classroom from '../assets/classroom.gif';
@@ -8,6 +8,16 @@ import classroom from '../assets/classroom.gif';
 export const PROJECTS = [
   {
     id: 0,
+    title: 'Anime Ranking',
+    github: 'https://github.com/M0nicaVaz/animeranking',
+    live: 'https://animeranking.vercel.app/',
+    description: `A full stack application to rank the animes you've watched! Axios was used to fetch the user's data from our database and also to fetch animes from a third-party api, that serves the anime guide.`,
+    stack: ['React', 'Styled-Components', 'Knex', 'Node', ' SQL'],
+    image: animeranking,
+    slug: 'animeranking',
+  },
+  {
+    id: 1,
     title: 'Rocket Notes',
     github: 'https://github.com/M0nicaVaz/RocketNotes',
     live: 'https://userocketnotes.netlify.app/',
@@ -19,7 +29,7 @@ export const PROJECTS = [
   },
 
   {
-    id: 1,
+    id: 2,
     title: 'Classroom Environment',
     github: 'https://github.com/M0nicaVaz/classroom-platform',
     live: 'https://classroom-platform.vercel.app/',
@@ -31,7 +41,7 @@ export const PROJECTS = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: 'Explorer',
     github: 'https://github.com/M0nicaVaz/explorer',
     live: 'https://m0nicavaz.github.io/explorer/',
@@ -42,7 +52,7 @@ export const PROJECTS = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: 'Git Fav',
     github: 'https://github.com/M0nicaVaz/GitFav',
     live: 'https://m0nicavaz.github.io/GitFav/',
@@ -53,7 +63,7 @@ export const PROJECTS = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: 'Psi Indica',
     github: 'https://github.com/M0nicaVaz/Psi.Indica',
     live: 'https://psiindica.netlify.app/',
@@ -62,16 +72,5 @@ export const PROJECTS = [
     stack: ['JavaScript', ' HTML', 'CSS'],
     image: psiIndica,
     slug: 'psiindica',
-  },
-
-  {
-    id: 5,
-    title: 'Focus Timer',
-    github: 'https://github.com/M0nicaVaz/FocusTimer',
-    live: 'https://m0nicavaz.github.io/FocusTimer/',
-    description: 'A Pomodoro Timer with different sounds to help you focus!',
-    stack: ['JavaScript', ' HTML', 'CSS'],
-    image: focustimer,
-    slug: 'focustimer',
   },
 ];
