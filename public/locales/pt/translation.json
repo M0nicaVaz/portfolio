@@ -1,0 +1,51 @@
+{
+  "navbar": {
+    "0": "SobreMim",
+    "1": "Projetos",
+    "2": "Contato"
+  },
+  "homePage": {
+    "greeting": "Oi",
+    "subtitle": "Me chamo Monica",
+    "description": "Sou uma desenvolvedora web brasileira, apaixonada pelo lado do cliente e por construir aplicações bonitas. No momento tenho dedicado meu tempo para aprender mais sobre React. Durante o meu tempo livre, gosto de jogar videogame e assistir anime. Também sou formada em psicologia!"
+  },
+  "projectsPage": {
+    "title": "Projetos"
+  },
+  "projectsFooter": {
+    "0": "Esse portfólio foi feito com",
+    "1": "Pode olhar o repositório clicando",
+    "2": " aqui "
+  },
+  "contactPage": {
+    "title": "Contato",
+    "info": "Sempre aberto!"
+  },
+  "form": {
+    "0": "Nome",
+    "1": "Enviar"
+  },
+  "result": {
+    "0": "Obrigada por entrar em contato comigo!",
+    "1": "Te respondo em breve 🤍"
+  },
+  "project0": {
+    "description": "Um aplicativo full stack para classificar os animes que você assistiu! Utilizei o Axios para buscar os dados do usuário do nosso banco de dados e também para buscar animes de uma API de terceiros, que nos serve o guia de animes."
+  },
+  "project1": {
+    "description": "Um aplicativo para manter seus links e notas facilmente agrupados. Durante este projeto, pude aprender sobre integração de front-end e back-end, bem como autenticação, JWT e criptografia de senha."
+  },
+  "project2": {
+    "description": "Um ambiente de sala de aula! O aplicativo foi construído com React e GraphQL para consumir a API GraphCMS e exibir as lições dinamicamente. Foi desenvolvido durante o IgniteLab, da RocketSeat."
+  },
+  "project3": {
+    "description": "A vanilla JavaScript SPA that was developed to document my progress as a Web Developer, throughout my studies on Rocketseat's program 'Explorer'. I used Linktree's concept as my inspiration to build this website."
+  },
+  "project4": {
+    "description": "Uma vanilla JavaScript SPA que foi desenvolvida para documentar meu progresso como Desenvolvedora Web, ao longo de meus estudos no programa 'Explorer' da Rocketseat. Usei o conceito do Linktree como minha inspiração para construir este site."
+  },
+  "project5": {
+    "description": "Uma landing page para o projeto Instagram @psi.indica, na qual o usuário pode escolher o tipo de conteúdo que deseja consumir, para que os cartões possam ser exibidos de forma correspondente, incluindo uma opção aleatória."
+  },
+  "notFound": "Como você chegou aqui? Quer ouvir música?"
+}

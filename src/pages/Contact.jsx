@@ -3,8 +3,11 @@ import { Main } from '../components/Main';
 import { Form } from '../components/Form';
 import { RiInformationFill } from 'react-icons/ri';
 import { FaLinkedin, FaGithubSquare } from 'react-icons/fa';
+import { useTranslation } from 'react-i18next';
 
 export function Contact() {
+  const { t } = useTranslation();
+
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
@@ -28,7 +31,7 @@ export function Contact() {
           <div className="group grid justify-center ">
             <div className="flex justify-self-end">
               <span className="opacity-0 group-hover:opacity-100 font-normal text-sm leading-relaxed transition-all duration-300">
-                Always open!
+                {t('contactPage.info')}
               </span>
               <RiInformationFill
                 size={24}
@@ -36,7 +39,7 @@ export function Contact() {
               />
             </div>
             <h1 className="font-mono font-normal pb-2 text-4xl lg:text-5xl mb-4 selection:text-yellow-100 dark:selection:text-yellow-200 italic text-right text-transparent bg-clip-text bg-gradient-to-br from-rose-400 to-purple-100 dark:from-blue-200 dark:to-purple-200">
-              &#60;Contact&#62;
+              &#60;{t('contactPage.title')}&#62;
             </h1>
           </div>
 

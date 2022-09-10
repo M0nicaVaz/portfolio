@@ -1,8 +1,10 @@
 import { Header } from '../components/Header';
 import { Main } from '../components/Main';
 import { Player } from '../components/Player';
+import { useTranslation } from 'react-i18next';
 
 export function NotFound() {
+  const { t } = useTranslation();
   return (
     <div className="min-h-screen flex flex-col pb-4">
       <Header />
@@ -11,7 +13,7 @@ export function NotFound() {
           Oops, 404!
         </span>
         <span className="place-self-center font-normal leading-loose bg-clip-text text-base lg:text-xl text-center selection:bg-purple-200 selection:text-yellow">
-          How did you get here? Would you like some music?
+          {t('notFound')}
         </span>
         <Player />
       </Main>

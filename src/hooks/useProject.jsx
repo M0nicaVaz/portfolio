@@ -1,8 +1,10 @@
 import { useParams } from 'react-router-dom';
-import { PROJECTS } from '../data';
+import { ProjectData } from '../data';
 
 export function useProject() {
   const slug = useParams().slug;
 
-  return PROJECTS.filter((project) => project.slug == slug)[0];
+  const projects = ProjectData();
+
+  return projects.filter((project) => project.slug == slug)[0];
 }

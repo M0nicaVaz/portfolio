@@ -2,11 +2,13 @@ import { Header } from '../components/Header';
 import { Main } from '../components/Main';
 import Draggable from 'react-draggable';
 import { useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 
 import { FaLinkedin, FaGithubSquare, FaFileDownload } from 'react-icons/fa';
 
 export function Home() {
   const nodeRef = useRef(null);
+  const { t } = useTranslation();
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -20,7 +22,7 @@ export function Home() {
           <div ref={nodeRef} className="mt-4 md:mt-0 group grid items-center">
             <div className="animate-disappear lg:animate-none justify-self-end flex justify-between w-[260px] lg:w-[420px]">
               <span className="mt-2 -rotate-12 transition-all duration-300 text-2xl  selection:text-yellow-200 selection:bg-purple-100 lg:opacity-0 lg:group-hover:opacity-100 lg:text-3xl lg:mb-2 ">
-                Hi!
+                {t('homePage.greeting')}
               </span>
               <span className="animate-wiggle-fast text-3xl transition-all duration-300 selection:text-yellow-200 selection:bg-purple-100 mb-1 lg:opacity-0 lg:group-hover:opacity-100 lg:animate-wiggle-infinite lg:mb-2 lg:text-4xl ">
                 👋
@@ -34,14 +36,11 @@ export function Home() {
         </Draggable>
 
         <span className="justify-self-end  text-xl leading-relaxed mb-2  selection:text-yellow-200 selection:bg-purple-100">
-          I'm Monica
+          {t('homePage.subtitle')}
         </span>
 
         <span className="pl-2 font-normal dark:font-light max-w-screen-sm text-right text-lg selection:text-yellow-200 selection:bg-purple-100 justify-self-end">
-          I'm a Brazilian web developer, passionate about the client-side and
-          building beautiful applications. At the moment I'm dedicating my time
-          to learning more about React. During my free time, I enjoy playing
-          video games and watching anime. I also have a psychology degree!
+          {t('homePage.description')}
         </span>
 
         <div className="flex mt-4 justify-end gap-2">

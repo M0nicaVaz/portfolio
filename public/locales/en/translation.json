@@ -1,0 +1,51 @@
+{
+  "navbar": {
+    "0": "AboutMe",
+    "1": "Projects",
+    "2": "Contact"
+  },
+  "homePage": {
+    "greeting": "Hi",
+    "subtitle": "I'm Monica",
+    "description": "I'm a Brazilian web developer, passionate about the client-side and building beautiful applications. At the moment I'm dedicating my time to learning more about React. During my free time, I enjoy playing video games and watching anime. I also have a psychology degree!"
+  },
+  "projectsPage": {
+    "title": "Projects"
+  },
+  "projectsFooter": {
+    "0": "This portfolio was made with",
+    "1": "Check the repository by clicking",
+    "2": " here "
+  },
+  "contactPage": {
+    "title": "Contact",
+    "info": "Always open!"
+  },
+  "form": {
+    "0": "Name",
+    "1": "Send"
+  },
+  "result": {
+    "0": "Thank you for reaching out to me!",
+    "1": "I'll contact you soon 🤍"
+  },
+  "project0": {
+    "description": "A full stack application to rank the animes you've watched! Axios was used to fetch the user's data from our database and also to fetch animes from a third-party api, that serves the anime guide."
+  },
+  "project1": {
+    "description": "An application to keep your links and notes easily grouped. During this project, I was able to learn about frontend and backend integration, as well as authentication, JWT, and password encryption."
+  },
+  "project2": {
+    "description": "A classroom environment! The app was built with React and GraphQL to consume the GraphCMS API and display the lessons dynamically. This was developed throughout the IgniteLab, from RocketSeat."
+  },
+  "project3": {
+    "description": "A vanilla JavaScript SPA that was developed to document my progress as a Web Developer, throughout my studies on Rocketseat's program 'Explorer'. I used Linktree's concept as my inspiration to build this website."
+  },
+  "project4": {
+    "description": "Developed to group your favorite GitHub profiles! The app consumes the GitHub API, so the user may access the provided public information about the searched username."
+  },
+  "project5": {
+    "description": "A landing page for the Instagram project @psi.indica, in which the user can choose the type of content that they want to consume, so cards may be displayed correspondingly, including a random option."
+  },
+  "notFound": "How did you get here? Would you like some music?"
+}
