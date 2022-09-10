@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles/global.css';
 
@@ -9,7 +9,9 @@ import './i18n';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider>
-      <Routes />
+      <Suspense fallback="...loading">
+        <Routes />
+      </Suspense>
     </ThemeProvider>
   </React.StrictMode>
 );

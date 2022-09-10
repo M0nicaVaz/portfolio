@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply text-neutral-900 dark:text-zinc-100  bg-gray-100 dark:bg-gray-300 min-h-screen overflow-x-hidden antialiased  transition-colors duration-300;
-}
-
 /* width */
 ::-webkit-scrollbar {
   width: 0.25rem;
@@ -25,4 +21,13 @@ body {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   @apply bg-yellow-100 dark:bg-yellow-200;
+}
+
+body {
+  @apply text-neutral-900 dark:text-zinc-100  bg-gray-100 dark:bg-gray-300 min-h-screen overflow-x-hidden antialiased  transition-colors duration-300;
+}
+
+img,
+svg {
+  @apply select-none;
 }
