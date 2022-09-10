@@ -1,4 +1,3 @@
-import { Header } from '../components/Header';
 import { Main } from '../components/Main';
 import Draggable from 'react-draggable';
 import { useRef } from 'react';

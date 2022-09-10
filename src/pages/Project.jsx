@@ -1,10 +1,8 @@
-import { Header } from '../components/Header';
 import { Main } from '../components/Main';
 import { NotFound } from './NotFound';
 import { useProject } from '../hooks/useProject';
 import { FaGithub } from 'react-icons/fa';
 import { TbWorld } from 'react-icons/tb';
-import { useTranslation } from 'react-i18next';
 
 export function Project() {
   const project = useProject();

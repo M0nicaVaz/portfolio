@@ -3,9 +3,9 @@ import { Portfolio } from '../pages/Portfolio';
 import { Contact } from '../pages/Contact';
 import { NotFound } from '../pages/NotFound';
 import { Project } from '../pages/Project';
+import { DefaultLayout } from '../layout/DefaultLayout';
 
 import { Route, Routes } from 'react-router-dom';
-import { DefaultLayout } from '../layout/DefaultLayout';
 
 export function AppRoutes() {
   return (

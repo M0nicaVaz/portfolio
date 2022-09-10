@@ -1,4 +1,3 @@
-import { Header } from '../components/Header';
 import { Main } from '../components/Main';
 import { Form } from '../components/Form';
 import { RiInformationFill } from 'react-icons/ri';

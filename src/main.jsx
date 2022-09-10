@@ -9,7 +9,7 @@ import './i18n';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider>
-      <Suspense fallback="...loading">
+      <Suspense fallback="...">
         <Routes />
       </Suspense>
     </ThemeProvider>
