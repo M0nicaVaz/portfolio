@@ -39,10 +39,10 @@
     "description": "Um ambiente de sala de aula! O aplicativo foi construído com React e GraphQL para consumir a API GraphCMS e exibir as lições dinamicamente. Foi desenvolvido durante o IgniteLab, da RocketSeat."
   },
   "project3": {
-    "description": "A vanilla JavaScript SPA that was developed to document my progress as a Web Developer, throughout my studies on Rocketseat's program 'Explorer'. I used Linktree's concept as my inspiration to build this website."
+    "description": "Uma SPA com vanilla JavaScript que foi desenvolvida para documentar meu progresso como Desenvolvedora Web, ao longo de meus estudos no programa 'Explorer' da Rocketseat. Usei o conceito do Linktree como minha inspiração para construir este site."
   },
   "project4": {
-    "description": "Uma vanilla JavaScript SPA que foi desenvolvida para documentar meu progresso como Desenvolvedora Web, ao longo de meus estudos no programa 'Explorer' da Rocketseat. Usei o conceito do Linktree como minha inspiração para construir este site."
+    "description": "Desenvolvido para agrupar seus perfis favoritos do GitHub! O aplicativo consome a API do GitHub, para que o usuário possa acessar as informações públicas fornecidas sobre o nome de usuário pesquisado."
   },
   "project5": {
     "description": "Uma landing page para o projeto Instagram @psi.indica, na qual o usuário pode escolher o tipo de conteúdo que deseja consumir, para que os cartões possam ser exibidos de forma correspondente, incluindo uma opção aleatória."
