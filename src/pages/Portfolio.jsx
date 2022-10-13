@@ -11,7 +11,7 @@ export function Portfolio() {
   return (
     <Main>
       <h1 className="text-right font-mono font-normal leading-loose text-4xl pb-4 italic lg:text-5xl text-transparent bg-clip-text bg-gradient-to-br from-yellow-100 to-rose-400 dark:from-yellow-200 dark:to-blue-200">
-        &#60;{t('projectsPage.title')} &#62;
+        &#60;{t('projectsPage.title')}&#62;
       </h1>
 
       <div className="flex flex-col h-[60vh] lg:h-[50vh] w-full">

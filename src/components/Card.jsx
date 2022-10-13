@@ -24,7 +24,7 @@ export function Card({ project }) {
       <li
         onMouseOver={handleMouseOver}
         onMouseOut={handleMouseOut}
-        className="grid place-content-center px-4 w-72  rounded bg-slate-100 dark:bg-gray-200 gap-2 hover:brightness-125 transition-all duration-300 lg:w-[420px] lg:py-4 lg:min-h-full h-fit py-4"
+        className="grid place-content-center px-4 w-72  rounded bg-gray-200/10 dark:bg-gray-200 gap-2 hover:brightness-125 transition-all duration-300 lg:w-[420px] lg:py-4 lg:min-h-full h-fit py-4"
       >
         <img
           src={project.imgST}
