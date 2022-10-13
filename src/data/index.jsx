@@ -1,5 +1,5 @@
-import rocketnotes from '../assets/rocketnotes.gif';
-import rocketnotesST from '../assets/rocketnotesST.jpg';
+import rickandmorty from '../assets/rickandmorty.gif';
+import rickandmortyST from '../assets/rickandmortyST.jpg';
 import gitfav from '../assets/gitfav.jpg';
 import animeranking from '../assets/animeranking.gif';
 import animerankingST from '../assets/animerankingST.jpg';
@@ -15,29 +15,29 @@ export function ProjectData() {
   const { t } = useTranslation();
 
   return [
+   
     {
       id: 0,
+      title: 'Rick and Morty Guide',
+      github: 'https://github.com/M0nicaVaz/rick-and-morty',
+      live: 'https://rick-and-morty-guide.vercel.app//',
+      description: t('project0.description'),
+      stack: ['Next', 'React', 'Typescript', 'Tailwind'],
+      image: rickandmorty,
+      imgST: rickandmortyST,
+      slug: 'rickandmorty',
+    },
+    {
+      id: 1,
       title: 'Anime Ranking',
       github: 'https://github.com/M0nicaVaz/animeranking',
       live: 'https://animeranking.vercel.app/',
-      description: t('project0.description'),
+      description: t('project1.description'),
       stack: ['React', 'Styled-Components', 'Knex', 'Node', ' SQL'],
       image: animeranking,
       imgST: animerankingST,
       slug: 'animeranking',
     },
-    {
-      id: 1,
-      title: 'Rocket Notes',
-      github: 'https://github.com/M0nicaVaz/RocketNotes',
-      live: 'https://userocketnotes.netlify.app/',
-      description: t('project1.description'),
-      stack: ['React', 'Styled-Components', 'Knex', 'Node', ' SQL'],
-      image: rocketnotes,
-      imgST: rocketnotesST,
-      slug: 'rocketnotes',
-    },
-
     {
       id: 2,
       title: 'Classroom Environment',
@@ -52,7 +52,7 @@ export function ProjectData() {
 
     {
       id: 3,
-      title: 'Explorer',
+      title: 'Explorer Portfolio',
       github: 'https://github.com/M0nicaVaz/explorer',
       live: 'https://m0nicavaz.github.io/explorer/',
       description: t('project3.description'),

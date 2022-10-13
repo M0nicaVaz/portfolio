@@ -7,7 +7,7 @@
   "homePage": {
     "greeting": "Oi",
     "subtitle": "Me chamo Monica",
-    "description": "Sou uma desenvolvedora web brasileira, apaixonada pelo lado do cliente e por construir aplicações bonitas. No momento tenho dedicado meu tempo para aprender mais sobre React. Durante o meu tempo livre, gosto de jogar videogame e assistir anime. Também sou formada em psicologia!"
+    "description": "Sou uma desenvolvedora web brasileira, apaixonada pelo lado do cliente e por desenvolver sites bonitos. No momento tenho me dedicando a aprender mais sobre o desenvolvimento frontend, especialmente as tecnologias ao redor do React. Durante o meu tempo livre, gosto de jogar videogame e assistir animes. Também sou formada em psicologia!"
   },
   "projectsPage": {
     "title": "Projetos"
@@ -30,10 +30,10 @@
     "1": "Te respondo em breve 🤍"
   },
   "project0": {
-    "description": "Um aplicativo full stack para classificar os animes que você assistiu! Utilizei o Axios para buscar os dados do usuário do nosso banco de dados e também para buscar animes de uma API de terceiros, que nos serve o guia de animes."
+    "description": "Um site criado para consumir os dados de uma API externa e exibi-los em tela. A página inicial é servida de modo estático, enquanto as páginas de detalhes são renderizadas no servidor!."
   },
   "project1": {
-    "description": "Um aplicativo para manter seus links e notas facilmente agrupados. Durante este projeto, pude aprender sobre integração de front-end e back-end, bem como autenticação, JWT e criptografia de senha."
+    "description": "Um aplicativo full stack para classificar os animes que você assistiu! Utilizei o Axios para buscar os dados do usuário do nosso banco de dados e também para buscar animes de uma API de terceiros, que nos serve o guia de animes."
   },
   "project2": {
     "description": "Um ambiente de sala de aula! O aplicativo foi construído com React e GraphQL para consumir a API GraphCMS e exibir as lições dinamicamente. Foi desenvolvido durante o IgniteLab, da RocketSeat."

@@ -7,7 +7,7 @@
   "homePage": {
     "greeting": "Hi",
     "subtitle": "I'm Monica",
-    "description": "I'm a Brazilian web developer, passionate about the client-side and building beautiful applications. At the moment I'm dedicating my time to learning more about React. During my free time, I enjoy playing video games and watching anime. I also have a psychology degree!"
+    "description": "I'm a Brazilian web developer, passionate about the client side and developing beautiful websites. Right now I'm dedicated to learning more about frontend development, especially the technologies around React. During my free time I enjoy playing video games and watching anime. I also have a psychology degree!"
   },
   "projectsPage": {
     "title": "Projects"
@@ -30,10 +30,10 @@
     "1": "I'll contact you soon 🤍"
   },
   "project0": {
-    "description": "A full stack application to rank the animes you've watched! Axios was used to fetch the user's data from our database and also to fetch animes from a third-party api, that serves the anime guide."
+    "description": "A website created to consume data from an third-party API and display it on screen. The home page is served statically, while the detail pages are rendered on the server!"
   },
   "project1": {
-    "description": "An application to keep your links and notes easily grouped. During this project, I was able to learn about frontend and backend integration, as well as authentication, JWT, and password encryption."
+    "description": "A full stack application to rank the animes you've watched! Axios was used to fetch the user's data from our database and also to fetch animes from a third-party api, that serves the anime guide."
   },
   "project2": {
     "description": "A classroom environment! The app was built with React and GraphQL to consume the GraphCMS API and display the lessons dynamically. This was developed throughout the IgniteLab, from RocketSeat."
