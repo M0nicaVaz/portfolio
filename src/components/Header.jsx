@@ -10,7 +10,7 @@ import usflag from '../assets/usflag.svg';
 export function Header() {
   const { theme, setTheme } = useTheme();
   const { t, i18n } = useTranslation();
-  const [flag, setFlag] = useState(brflag);
+  const [flag, setFlag] = useState(usflag);
 
   function switchLanguage() {
     if (i18n.language === 'en') {

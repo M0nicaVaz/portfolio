@@ -2,7 +2,7 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import Backend from 'i18next-http-backend';
 
-const fallbackLng = ['en'];
+const fallbackLng = ['pt'];
 const availableLanguages = ['en', 'pt'];
 
 const options = {
@@ -23,7 +23,7 @@ i18n
   .init({
     fallbackLng,
     debug: true,
-    lng: 'en',
+    lng: 'pt',
     whitelist: availableLanguages,
     detection: options,
 
