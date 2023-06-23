@@ -24,10 +24,10 @@ export function Form() {
 
     emailjs
       .sendForm(
-        'contact_service',
+        import.meta.env.VITE_APP_EMAILJS_ID,
         'contact_form',
         form.current,
-        'bxNj86Y-MJvFHss4P'
+        import.meta.env.VITE_APP_EMAILJS_KEY
       )
       .then(
         (result) => {
@@ -81,7 +81,7 @@ export function Form() {
         disabled={result}
         type="submit"
         className={classNames(
-          'border-rose-500 text-rose-500  text-rose-500 hover:from-rose-500 hover:to-purple-200 hover:text-neutral-100  dark:border-blue-200 dark:text-blue-200 border hover:bg-gradient-to-r dark:hover:text-neutral-900 font-medium hover:dark:from-blue-200 hover:dark:to-purple-200 rounded p-2 w-72 mb-6 lg:w-96 transition-all duration-300 selection:text-yellow disabled:opacity-50 disabled:cursor-not-allowed'
+          'border-rose-500 text-rose-500 hover:from-rose-500 hover:to-purple-200 hover:text-neutral-100  dark:border-blue-200 dark:text-blue-200 border hover:bg-gradient-to-r dark:hover:text-neutral-900 font-medium hover:dark:from-blue-200 hover:dark:to-purple-200 rounded p-2 w-72 mb-6 lg:w-96 transition-all duration-300 selection:text-yellow disabled:opacity-50 disabled:cursor-not-allowed'
         )}
       >
         {t('form.1')}
