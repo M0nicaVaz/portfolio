@@ -52,17 +52,6 @@ export function Home() {
             className="hover:opacity-70 text-cyan-700 dark:text-blue-200 dark:hover:text-green transition-all duration-300 dark:opacity-50 dark:hover:opacity-80"
           />
         </a>
-        <a
-          href={
-            'https://drive.google.com/uc?export=download&id=16AiuuVAM7wMO1fVyiw724nFYyDs_xuoW'
-          }
-          target="_blank"
-        >
-          <FaFileDownload
-            size={28}
-            className="hover:opacity-70 text-cyan-700   dark:text-blue-200 dark:hover:text-green transition-all duration-300 dark:opacity-50 dark:hover:opacity-80"
-          />
-        </a>
       </div>
     </Main>
   );

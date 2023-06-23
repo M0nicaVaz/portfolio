@@ -1,28 +1,24 @@
 import rickandmorty from '../assets/rickandmorty.gif';
 import rickandmortyST from '../assets/rickandmortyST.jpg';
-import gitfav from '../assets/gitfav.jpg';
 import animeranking from '../assets/animeranking.gif';
 import animerankingST from '../assets/animerankingST.jpg';
-import explorer from '../assets/explorer.gif';
-import psiIndica from '../assets/psiindica.gif';
-import classroom from '../assets/classroom.gif';
-import explorerST from '../assets/explorerST.jpg';
-import psiIndicaST from '../assets/psiindicaST.jpg';
-import classroomST from '../assets/classroomST.jpg';
+import mediaplayer from '../assets/mediaplayer.gif';
+import mediaplayerST from '../assets/mediaplayerST.png';
+
 import { useTranslation } from 'react-i18next';
 
 export function ProjectData() {
   const { t } = useTranslation();
 
   return [
-   
+
     {
       id: 0,
       title: 'Rick and Morty Guide',
       github: 'https://github.com/M0nicaVaz/rick-and-morty',
       live: 'https://rick-and-morty-guide.vercel.app//',
       description: t('project0.description'),
-      stack: ['Next', 'React', 'Typescript', 'Tailwind'],
+      stack: ['Next', 'Typescript', 'TailwindCSS'],
       image: rickandmorty,
       imgST: rickandmortyST,
       slug: 'rickandmorty',
@@ -40,50 +36,14 @@ export function ProjectData() {
     },
     {
       id: 2,
-      title: 'Classroom Environment',
-      github: 'https://github.com/M0nicaVaz/classroom-platform',
-      live: 'https://classroom-platform.vercel.app/',
+      title: 'Media Player',
+      github: 'https://github.com/M0nicaVaz/mediaPlayer',
+      live: 'https://m0nicavaz.github.io/mediaPlayer/',
       description: t('project2.description'),
-      stack: ['React', 'TypeScript', 'GraphCMS', 'Apollo', 'Tailwind'],
-      image: classroom,
-      imgST: classroomST,
-      slug: 'classroom',
-    },
-
-    {
-      id: 3,
-      title: 'Explorer Portfolio',
-      github: 'https://github.com/M0nicaVaz/explorer',
-      live: 'https://m0nicavaz.github.io/explorer/',
-      description: t('project3.description'),
-      stack: ['JavaScript', ' HTML', 'CSS'],
-      image: explorer,
-      imgST: explorerST,
-      slug: 'explorer',
-    },
-
-    {
-      id: 4,
-      title: 'Git Fav',
-      github: 'https://github.com/M0nicaVaz/GitFav',
-      live: 'https://m0nicavaz.github.io/GitFav/',
-      description: t('project4.description'),
-      stack: ['JavaScript', ' HTML', 'CSS'],
-      image: gitfav,
-      imgST: gitfav,
-      slug: 'gitfav',
-    },
-
-    {
-      id: 5,
-      title: 'Psi Indica',
-      github: 'https://github.com/M0nicaVaz/Psi.Indica',
-      live: 'https://psiindica.netlify.app/',
-      description: t('project5.description'),
-      stack: ['JavaScript', ' HTML', 'CSS'],
-      image: psiIndica,
-      imgST: psiIndicaST,
-      slug: 'psiindica',
+      stack: ['Javascript', 'HTML', 'CSS'],
+      image: mediaplayer,
+      imgST: mediaplayerST,
+      slug: 'mediaplayer',
     },
   ];
 }

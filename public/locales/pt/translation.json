@@ -7,7 +7,7 @@
   "homePage": {
     "greeting": "Oi",
     "subtitle": "Me chamo Monica",
-    "description": "Sou uma desenvolvedora web brasileira, apaixonada pelo lado do cliente e por desenvolver sites bonitos. No momento tenho me dedicado a aprender mais sobre o desenvolvimento frontend, especialmente as tecnologias ao redor do React. Durante o meu tempo livre, gosto de jogar videogame e assistir animes. Também sou formada em psicologia!"
+    "description": "Sou uma desenvolvedora frontend! Tenho experiência com o JavaScript, principalmente com React e NextJS. Tenho formação em Psicologia e também já ensinei inglês para crianças, mas o desenvolvimento de software foi o que realmente me conquistou."
   },
   "projectsPage": {
     "title": "Projetos"
@@ -30,22 +30,13 @@
     "1": "Te respondo em breve 🤍"
   },
   "project0": {
-    "description": "Um site criado para consumir os dados de uma API externa e exibi-los em tela. A página inicial é servida de modo estático, enquanto as páginas de detalhes são renderizadas no servidor!."
+    "description": "Um site feito criado para consumir os dados de uma API externa e exibi-los em tela."
   },
   "project1": {
-    "description": "Um aplicativo full stack para classificar os animes que você assistiu! Utilizei o Axios para buscar os dados do usuário do nosso banco de dados e também para buscar animes de uma API de terceiros, que nos serve o guia de animes."
+    "description": "Um projeto full stack para classificar os animes que você assistiu! Utilizei o Axios para buscar os dados do usuário do nosso banco de dados e também para buscar animes de uma API de terceiros, que nos serve o guia de animes."
   },
   "project2": {
-    "description": "Um ambiente de sala de aula! O aplicativo foi construído com React e GraphQL para consumir a API GraphCMS e exibir as lições dinamicamente. Foi desenvolvido durante o IgniteLab, da RocketSeat."
+    "description": "Um player de músicas feito só com Javascript puro, CSS e HTML."
   },
-  "project3": {
-    "description": "Uma SPA com vanilla JavaScript que foi desenvolvida para documentar meu progresso como Desenvolvedora Web, ao longo de meus estudos no programa 'Explorer' da Rocketseat. Usei o conceito do Linktree como minha inspiração para construir este site."
-  },
-  "project4": {
-    "description": "Desenvolvido para agrupar seus perfis favoritos do GitHub! O aplicativo consome a API do GitHub, para que o usuário possa acessar as informações públicas fornecidas sobre o nome de usuário pesquisado."
-  },
-  "project5": {
-    "description": "Uma landing page para o projeto Instagram @psi.indica, na qual o usuário pode escolher o tipo de conteúdo que deseja consumir, para que os cartões possam ser exibidos de forma correspondente, incluindo uma opção aleatória."
-  },
-  "notFound": "Como você chegou aqui? Quer ouvir música?"
+  "notFound": "Oxi. Como você chegou aqui? Que tal uma música?"
 }
