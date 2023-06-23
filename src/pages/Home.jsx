@@ -52,6 +52,7 @@ export function Home() {
             className="hover:opacity-70 text-cyan-700 dark:text-blue-200 dark:hover:text-green transition-all duration-300 dark:opacity-50 dark:hover:opacity-80"
           />
         </a>
+
       </div>
     </Main>
   );
